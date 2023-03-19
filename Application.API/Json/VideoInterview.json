@@ -1,0 +1,36 @@
+[
+  {
+    "Id": "77f05b16-ee83-4d38-a37b-8a42c4a955d4",
+    "CreatedAt": "2023-03-17T10:30:00Z",
+    "ModifiedAt": "2023-03-17T10:45:00Z",
+    "StageTypeId": "2c2169ee-2c33-4f07-90f7-87d1ec71e1e1",
+    "VideoQuestion": "What motivated you to apply for this position?",
+    "AdditionalInfo": "Please keep your answer brief and to the point.",
+    "MaxVideoDuration": "2 minutes",
+    "DurationMinAndSec": "01:30",
+    "SubmissionDeadline": 7
+  },
+  {
+    "Id": "e85b2c2a-d5e5-41e5-9f94-8ec7f0b65c1f",
+    "CreatedAt": "2023-03-16T08:00:00Z",
+    "ModifiedAt": "2023-03-16T09:30:00Z",
+    "StageTypeId": "29d14a3b-9a60-47e3-8c22-3ee919d259e7",
+    "VideoQuestion": "Describe a time when you had to work with a difficult team member.",
+    "AdditionalInfo": "Please be specific about the situation and your approach to resolving it.",
+    "MaxVideoDuration": "3 minutes",
+    "DurationMinAndSec": "02:15",
+    "SubmissionDeadline": 3
+  },
+
+  {
+    "Id": "ab9dcf55-9dd9-418d-b6db-3c8edf29430e",
+    "CreatedAt": "2023-03-15T14:00:00Z",
+    "ModifiedAt": "2023-03-15T14:30:00Z",
+    "StageTypeId": "9870de99-d25c-4d3a-9d4e-8c4e93d7bb35",
+    "VideoQuestion": "What are your thoughts on the importance of work-life balance?",
+    "AdditionalInfo": "Please share your personal experiences and any strategies you use to maintain a healthy balance.",
+    "MaxVideoDuration": "4 minutes",
+    "DurationMinAndSec": "03:30",
+    "SubmissionDeadline": 5
+  }
+]

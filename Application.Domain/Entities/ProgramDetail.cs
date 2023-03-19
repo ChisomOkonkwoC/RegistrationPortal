@@ -35,7 +35,7 @@ namespace Application.Domain.Entities
         public string Duration { get; set; }
         public ProgramLocation ProgramLocation { get; set; }
         public MinQualification MinQualification { get; set; }
-        public string MaxNumOfApplication { get; set; }
+        public int MaxNumOfApplication { get; set; }
         public virtual Preview Previews { get; set; }
        
     }

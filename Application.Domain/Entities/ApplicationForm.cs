@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Application.Domain.Enums;
 
 namespace Application.Domain.Entities
 {
     public class ApplicationForm : BaseEntity
     {
-        public byte[] PictureUpload { get; set; }
+        public byte[]? PictureUpload { get; set; }
 
         //Personal Information
         public string FirstName { get; set; }
@@ -27,14 +23,20 @@ namespace Application.Domain.Entities
         public string Resume { get; set; }
 
         //Additional Questions
-        public string Paragraph { get; set; }
-        public DateTime DropDown { get; set; }
-        public string Question { get; set; }
+        public string ParagraphQuestion { get; set; }
+        public string DropDownQuestion { get; set; }
+        public string MultiChoiceQuestion { get; set; }
         public string Choice { get; set; }
+        public string NumberQuestion { get; set; }
+        public string FileUploadQuestion { get; set; }
+        public string DateQuestion { get; set; }
         public string YesOrNoQuestion { get; set; }
-        public int MaxChoice { get; set; }
-        public string QuestionType { get; set; }
+        public int MaxChoiceAllowed { get; set; }
+        public QuestionType QuestionType { get; set; }
         public string MaxVideoTime { get; set; }
+        public TimeSpan MaxVideoTimeInMinSec { get; set; }
+        public string VideoQuestion1 { get; set; }
+        public string VideoQuestion2 { get; set; }
 
     }
 }

@@ -9,12 +9,12 @@ namespace Application.Infastructure.Data
         {
 
         }
-        public DbSet<WorkFlow> workFlows { get; set; }
-        public DbSet<ApplicationForm> applicationForms { get; set; }
-        public DbSet<StageType> stageTypes { get; set; }
-        public DbSet<VideoInterview> videoInterviews { get; set; }
-        public DbSet<Preview> previews { get; set; }
-        public DbSet<ProgramDetail> programDetails { get; set; }
+        public DbSet<WorkFlow> WorkFlows { get; set; }
+        public DbSet<ApplicationForm> ApplicationForms { get; set; }
+        public DbSet<StageType> StageTypes { get; set; }
+        public DbSet<VideoInterview> VideoInterviews { get; set; }
+        public DbSet<Preview> Previews { get; set; }
+        public DbSet<ProgramDetail> ProgramDetails { get; set; }
 
 
         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)

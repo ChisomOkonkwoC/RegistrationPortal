@@ -8,7 +8,7 @@ namespace Application.Domain.Entities
 {
     public class VideoInterview : BaseEntity
     {
-        public Guid StageId { get; set; }
+        public Guid StageTypeId { get; set; }
         public string VideoQuestion { get; set; }
         public string AdditionalInfo { get; set; }
         public string MaxVideoDuration { get; set; }

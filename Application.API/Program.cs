@@ -1,4 +1,6 @@
 using Application.API.Configuration;
+using Application.Infastructure.Data;
+using Application.Infrastructure.Seeder;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,6 +22,12 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+}
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    var dbcontext = services.GetRequiredService<AppDbContext>();
+    Seeder.Seed(dbcontext).Wait();
 }
 
 app.UseHttpsRedirection();
